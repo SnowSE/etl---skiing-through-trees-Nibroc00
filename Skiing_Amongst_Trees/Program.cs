@@ -6,7 +6,13 @@ namespace Skiing_Amongst_Trees
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!"); 
+            string Link = "TreeMap.txt";
+            SkiSlope Zelda = new SkiSlope(Link);
+            // Console.WriteLine(Zelda.getValidFile());
+            // Console.WriteLine(Zelda.getNumberOfLines());
+            // Console.WriteLine(Zelda.getWidthOfLines());
+            SkiTrip Ganon = Zelda.Ski(11, 11);
+            Console.WriteLine(Ganon.report());
         }
     }
 }
