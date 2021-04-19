@@ -8,10 +8,7 @@ namespace Skiing_Amongst_Trees
         {
             string Link = "TreeMap.txt";
             SkiSlope Zelda = new SkiSlope(Link);
-            // Console.WriteLine(Zelda.getValidFile());
-            // Console.WriteLine(Zelda.getNumberOfLines());
-            // Console.WriteLine(Zelda.getWidthOfLines());
-            SkiTrip Ganon = Zelda.Ski(11, 11);
+            SkiTrip Ganon = Zelda.Ski(2, 2);
             Console.WriteLine(Ganon.report());
         }
     }
