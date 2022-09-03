@@ -11,7 +11,7 @@ namespace Skiing_Amongst_Trees
             // Console.WriteLine(Zelda.getValidFile());
             // Console.WriteLine(Zelda.getNumberOfLines());
             // Console.WriteLine(Zelda.getWidthOfLines());
-            SkiTrip Ganon = Zelda.Ski(11, 11);
+            SkiTrip Ganon = Zelda.Ski(3, 1);
             Console.WriteLine(Ganon.report());
         }
     }
