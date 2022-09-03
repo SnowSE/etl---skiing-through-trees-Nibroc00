@@ -79,7 +79,6 @@ namespace Skiing_Amongst_Trees
                     for (int i = 0; i < x; i++) {
                         if (this.SkierLocationX == this.WidthOfLines) {
                             this.SkierLocationX = 1;
-
                         }
                         else {
                             this.SkierLocationX++;
